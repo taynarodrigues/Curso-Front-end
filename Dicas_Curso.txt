@@ -1,0 +1,13 @@
+O HTML5 introduziu a tag <header>. Esta tag tem a mesma funcionalidade de uma <div>, 
+contudo ela é uma tag semântica indicando para leitores de acessibilidade, inclusive para buscadores que todo o conteúdo que existir dentro dela faz parte do cabeçalho da página.
+
+atalhos:
+
+!+TAB 
+ul>li*2>a+TAB
+
+Dica para encontrar as cores de um layout já existente
+usar o serviço gratuito http://html-color-codes.info/colors-from-image/. Sendo um serviço de terceiros, 
+verifique se ele continua existindo na data na qual você esta iniciando o curso.
+
+O CSS Reset utilizado foi https://meyerweb.com/eric/tools/css/reset/

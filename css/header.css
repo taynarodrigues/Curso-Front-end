@@ -1,0 +1,54 @@
+/* A primeira coisa que faremos é criar a classe header. 
+Essa classe aplicada a imagem destaque.jpeg como fundo de todo o header. */
+header{
+	/* no-repeat para não repetir imagem */
+	background: url(../img/destaque.jpeg) no-repeat;
+/* Usamos background-size: cover para que a imagem cresça o máximo possível
+ para que toda a área do background seja preenchida. */
+ background-size: cover;
+ /* afastar o conteúdo da borda*/
+ padding-top: 32px;
+}
+
+header .main-menu{
+/* alinhar ao centro */
+text-align: center;
+
+}
+
+.header .main-menu .menu-item{
+ /* colocar uma <li> do lado da outa */
+	display: inline-block;
+	/* afastar a margem do menu */
+	/*Usando o atalho passamos 4 parâmetros estamos passando os valores
+	 de margin-top, margin-right, margin-botton e margin-left respectivamente.*/
+	margin: 0 2px 32px 0;
+}
+
+/* estilizar a âncora */
+.header .main-menu .menu-item a{
+
+	/* cor branca */
+	color: white;
+	padding: 16px;
+
+	/* background: rgba(red, green, blue, alpha) para conseguir a transparência do fundo apenas. 
+	Ele também terá a borda um pouquinho aredondada e 16px de espaçamento entre o conteúdo e a borda.*/
+	background: rgba(0, 0, 0, 0.1);
+	/* para ter um arredondamento */
+	border-radius: 4px;
+	/* Letra maiuscula */
+	text-transform: uppercase;
+	/* Não queremos cara de link por isso usamos text-decoration: none */
+	text-decoration: none;
+	/* Queremos uma transição também na volta,
+	por isso pasta adicionarmos
+	 a propriedade transition: background-color 0.5s no seletor que afeta a âncora. */
+	transition: background-color 0.5s;
+}
+
+/* quando o mouse estiver em cima ganhar a pseudo class hover */
+.header .main-menu .menu-item a:hover{
+	background-color: #48A3A6;
+
+}
