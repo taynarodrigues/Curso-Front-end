@@ -50,5 +50,74 @@ text-align: center;
 /* quando o mouse estiver em cima ganhar a pseudo class hover */
 .header .main-menu .menu-item a:hover{
 	background-color: #48A3A6;
+}
+
+/* a classe removerá todos os paddings da div,
+deixando apenas um padding-botton de 44px,
+alinhará todos os seus elementos pelo centro e
+ garantindo que todos estejam em maiúcsula: */
+.header .jumbotron{
+	text-align: center;
+	padding: 0 0 44px 0;
+	text-transform: uppercase;
+}
+
+/* A cor da letra dos elementos do nosso painel será white,
+inclusive os elementos terá uma sobra de texto posicionada à 4px 4px,
+blur de 10px e cor black: */
+.header .panel-main{
+	color: white;
+	/* sombra do texto */
+	text-shadow: 4px 4px 10 px black;
+}
+
+
+	/* precisaremos trabalhar com um tamanho de fonte relativa em title e subtitle,
+	trabalharemos com em. */
+header .jumbotron .title{
+	/* font-size: 48px; -> Que seja três vezes o tamanho da fonte que é o pai */
+}
+header .jumbotron .subtitle {
+	font-size: 42px;
+	color: #64ff64;
+	margin-top: 8px;
+}
+.header .jumbotron .button{
+	/* se comporte com inline mas que possa atribuir
+	algumas propriedades de elementos que são block */
+	display: inline-block;
+	color: white;
+	/* Não queremos cara de link por isso usamos text-decoration: none */
+	text-decoration: none;
+	/* fonte maior */
+	font-size: 18px;
+	/* colocar uma borda */
+	/* border: solid 2px; */
+	/* afastar o conteúdo da borda do topo*/
+	padding: 25px 50px;
+	background-color: #48a3a6;
+	/* borda arredondada */
+	border-radius: 8px;
+}
+/* O botão ficou muito bolado com o painel-main. 
+Podemos resolver isso facilmente criando a classe panel-subscribe,
+que fará um margin-top de 28px */
+.header .jumbotron .panel-subscribe{
+	margin-top: 28px;
+}
+
+/* para mobile */
+
+/* Podemos resolver isso através de uma media query levando em consideração 
+o breakpoint 650 para realizar o ajuste no tamanho das fontes. 
+Pode ser que o bom senso de outro programador entenda que esse valor do breakpoint seja maior ou menor,
+mas esse valor é bom tamanho que na hora deste instrutor criar o design achou adequado. */
+
+/* a media query só vai bater se tiver usando a ->  tag meta name="viewport", para 
+que ele considere a meta do viewport e não a resolução do dispositivo*/
+@media(min-width: 650px){
+	.header .jumbotron{
+		font-size: 28px;
+	}
 
 }
