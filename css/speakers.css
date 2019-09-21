@@ -1,0 +1,64 @@
+.panel-speakers{
+/* afastar o conteúdo que está colado no topo da borda laranja */
+padding-top: 40px;
+/* cor de fundo laranja */
+background-color: #EF7247;
+}
+
+.panel-speakers .about-speakers{
+    text-align: center;
+}
+.panel-speakers .title{
+    color: white;
+    /* tamanho da fonte */
+    font-size: 40px;
+    /* afastar o subtítulo do título */
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+.panel-speakers .subtitle{
+    color: white;
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+.panel-speakers .speakers{
+    text-align: center;
+}
+.panel-speakers .speaker{
+    
+    background: white;
+    /* um do lado do outro */
+    display: inline-block;
+    /* espaçamento na margin direita e na margin de botton */
+    /* 0 na parte de cima; 16px na direita; 32px em baixo e 0 na esquerda */
+    margin: 0 16px 32px 0;
+    /* conteúdo da borda */
+    padding: 18px;
+    /* arredondamento */
+    border-radius: 10px;
+   /* definir o conteúdo  máximo do painel, conforme for crescendo que ele quebre a linha */
+   width: 220px;
+   /* como tem muito texto na descrição, tem-se que alinhar pelo topo */
+   vertical-align: top;
+}
+
+.panel-speakers .speaker-image{
+
+    /* imagem com a bolinha 100% arredondada */
+    border-radius: 50%; /*50% no pai*/
+}
+.panel-speakers .speaker-name{
+    /* espaçamento do nome da imagem */
+    margin-top: 10px;
+}
+ /* a frase tem que estar em negrito e afastada */
+.panel-speakers .speaker-bio{
+    /* em negrito */
+    font-weight: bold;
+    margin-top: 16px;
+}
+ /* a frase da conversa um pouco maior */
+.panel-speakers .speaker-speach{
+
+    margin-top: 16px;
+}
