@@ -1,0 +1,28 @@
+.panel-form{
+    margin-top: 32px;
+}
+.panel-form .title{
+    font-size: 32px;
+    color: #EF7247;
+    text-align: center;
+
+    text-transform: uppercase;
+}
+.field label{
+    /* o nome e as caixinhas do input, um embaixo do outro */
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.field .field-input{
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    /* espaçamento entre o contédo e a borda */
+    padding: 5px;
+}
+/* espaçamento entre um field e outro */
+.field{
+    margin-bottom: 16px;
+}
