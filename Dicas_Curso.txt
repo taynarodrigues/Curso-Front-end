@@ -20,3 +20,7 @@ Sendo assim, hoje nosso title possui 48px, que é a mesma coisa que 3em. Já o s
 Quando nossa media query não esta ativa, os elementos se basearão no tamanho do elemento pai que possui 16px por padrão, 
 mas quando a media query for aplicada, o elemento pai terá um acrescimento ao seu tamanho, 
 fazendo com que o title e o subtitle aumentem.
+
+Obs:Antes de mais nada, vamos adicionar ID's mos painéis Sobre, Palestrantes, Inscreva-se.
+ É através desses ID's que faremos uma navegação interna passando esses ID's para as âncoras do menu da aplicação. 
+ Quando o usuário clicar, seremos direcionados instantâneamente para essas áreas

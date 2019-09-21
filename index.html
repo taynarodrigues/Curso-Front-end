@@ -21,8 +21,8 @@
 				<ul>
 					<!-- # -> Seletor do css -->
 					<!-- <a> de âncora -->
-					<li class="menu-item"><a href="#">Sobre</a></li>
-					<li class="menu-item"><a href="#">Palestrantes</a></li>
+					<li class="menu-item"><a href="#panel-about">Sobre</a></li>
+					<li class="menu-item"><a href="#panel-speakers">Palestrantes</a></li>
 				</ul>
 		</nav>
 		<!-- classe de destaque jumbotron -->
@@ -42,12 +42,12 @@
 
 				<!-- estilizar o botão -->
 			<section class="panel-subscribe">
-					<a href="#" class="button">Inscreva-se</a>
+					<a href="#panel-form" class="button">Inscreva-se</a>
 			</section>
 		</div>
 	</header>
 
-	<section class="panel panel-about">
+	<section  id="panel-about" class="panel panel-about">
 		<!--/* espaçamento do conteúdo tanto na esquerda, quanto na direita */ 
 			O conteúdo vai ficar dentro da div class="container no qual centralizar 
 		e colocar a margin -->
@@ -66,7 +66,7 @@
 		</div>
 	</section>
 
-	<section class="panel panel-speakers">
+	<section id="panel-speakers" class="panel panel-speakers">
 	<div class="container">
 		<div class="about-speakers">
 			<h2 class="title">PALESTRANTES</h2>
@@ -178,7 +178,7 @@
 	</div>
  </section>
  <!-- Estrutura do formulário: É um form dentro de uma section que possui um título -->
- <section class="panel-form">
+ <section id="panel-form" class="panel-form">
   <div class="container">
     <h2 class="title">Seus dados</h2>
      <form>
@@ -196,5 +196,9 @@
      </form>
    </div>
  </section>
+ <!-- importar o jquery da pasta js -->
+ <script src="js/jquery.js"></script>
+ <!-- importar o index que vai ter o código do js -->
+ <script src="js/index.js"></script>
 </body>
 </html>
