@@ -19,7 +19,7 @@ function ativaScrollSuave(selector){
         // a função animate do jQuery. Ela será responsável em fazer nosso scroll suave:
         $('html, body').animate({
             scrollTop: $(target).offset().top
-        },5000);
+        },500);
     });
 
     // Em nosso código, target é o valor do href do elemento que clicamos. 
@@ -28,11 +28,10 @@ function ativaScrollSuave(selector){
     // jQuery Object para então 
     // extrairmos o valor do 
     // atributo href através de $(this).attr('href').
-
+}
 
     // Precisamos passar como parâmetro para a função ativaScrollSuave
     //  o seletor CSS de cada âncora que desejamos fazer o scroll suave. 
     ativaScrollSuave('a[href*=panel-about]'); /**Seletor CSS: Seletor de atributo */
     ativaScrollSuave('a[href*=panel-speakers]');
     ativaScrollSuave('a[href*panel-form]');
-}
