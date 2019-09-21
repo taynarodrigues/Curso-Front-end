@@ -1,0 +1,23 @@
+.panel-about{
+    /* afastar o conteúdo que está colado */
+    margin-bottom: 20px;
+    /* centralizar */
+    text-align: center;
+}
+
+/* aumentar a fonte do título */
+.panel-about .title{
+    font-size: 40px;
+    /* afastar o conteúdo que está colado */
+    margin-bottom: 16px;
+}
+.panel-about .subtitle{
+    font-size: 24px;
+    /* afastar o conteúdo que está colado */
+    margin-bottom: 16px;
+}
+.panel-about .about-description{
+    font-size: 18px;
+    /* espaçamento entre as linhas-"um pouco maior" */
+    line-height: 35px;
+}

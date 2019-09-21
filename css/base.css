@@ -1,0 +1,5 @@
+/* espaçamento do conteúdo tanto na esquerda, quanto na direita */
+.container{
+    width: 96%;
+    margin: 0 auto;
+}
