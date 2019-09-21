@@ -75,10 +75,12 @@ blur de 10px e cor black: */
 	/* precisaremos trabalhar com um tamanho de fonte relativa em title e subtitle,
 	trabalharemos com em. */
 header .jumbotron .title{
-	/* font-size: 48px; -> Que seja três vezes o tamanho da fonte que é o pai */
+	/* font-size: 48px; -> E substituindo o title Que seja três vezes o tamanho da fonte que é o pai */
+	font-size: 3em; /*3em -> 3 vezes 16px*/
 }
 header .jumbotron .subtitle {
-	font-size: 42px;
+	/* font-size: 42px; E substituindo o subtitle por 2.6em */
+	font-size: 2.6em; /*2.6 vezes 16px*/
 	color: #64ff64;
 	margin-top: 8px;
 }

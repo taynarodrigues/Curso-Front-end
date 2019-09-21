@@ -11,3 +11,12 @@ usar o serviço gratuito http://html-color-codes.info/colors-from-image/. Sendo 
 verifique se ele continua existindo na data na qual você esta iniciando o curso.
 
 O CSS Reset utilizado foi https://meyerweb.com/eric/tools/css/reset/
+
+ Trabalhando com em.
+
+O valor de 1em é o valor do font-size do elemento pai. 
+Aliás, o padrão do tamanho do font-size de um elemento que não modificamos é 16px. 
+Sendo assim, hoje nosso title possui 48px, que é a mesma coisa que 3em. Já o subtitle equivale a 2.6em.
+Quando nossa media query não esta ativa, os elementos se basearão no tamanho do elemento pai que possui 16px por padrão, 
+mas quando a media query for aplicada, o elemento pai terá um acrescimento ao seu tamanho, 
+fazendo com que o title e o subtitle aumentem.
