@@ -3,3 +3,48 @@
     width: 96%;
     margin: 0 auto;
 }
+/* As classes dos nossos fields podem ser aproveitadas em outras páginas da nossa aplicação. 
+Dessa forma, vamos extrair o CSS que fizemos para dentro do arquivo css/base.css: */
+
+/* espaçamento entre um field e outro */
+.field{
+    margin-bottom: 16px;
+}
+.field label{
+    /* o nome e as caixinhas do input, um embaixo do outro */
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.field .field-input{
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    /* espaçamento entre o contédo e a borda */
+    padding: 5px;
+    border-radius: 5px;
+    /* haverá também uma sobra no input sutil, com a mesma cor do botão */
+    box-shadow: 1px 1px 10px #48A2A6;
+}
+/* o estilo do button que definimos em header.css será o mesmo estilo do button do nosso formulário.
+ Ele é mais um candidato a ser removido e adicionando dentro de css/base.css. */
+.button{
+	/* se comporte com inline mas que possa atribuir
+	algumas propriedades de elementos que são block */
+	display: inline-block;
+	color: white;
+	/* Não queremos cara de link por isso usamos text-decoration: none */
+	text-decoration: none;
+	/* fonte maior */
+	font-size: 18px;
+	/* colocar uma borda */
+	/* border: solid 2px; */
+	/* afastar o conteúdo da borda do topo*/
+	padding: 25px 50px;
+	background-color: #48a3a6;
+	/* borda arredondada */
+	border-radius: 8px;
+}
+
+

@@ -84,23 +84,7 @@ header .jumbotron .subtitle {
 	color: #64ff64;
 	margin-top: 8px;
 }
-.header .jumbotron .button{
-	/* se comporte com inline mas que possa atribuir
-	algumas propriedades de elementos que são block */
-	display: inline-block;
-	color: white;
-	/* Não queremos cara de link por isso usamos text-decoration: none */
-	text-decoration: none;
-	/* fonte maior */
-	font-size: 18px;
-	/* colocar uma borda */
-	/* border: solid 2px; */
-	/* afastar o conteúdo da borda do topo*/
-	padding: 25px 50px;
-	background-color: #48a3a6;
-	/* borda arredondada */
-	border-radius: 8px;
-}
+
 /* O botão ficou muito bolado com o painel-main. 
 Podemos resolver isso facilmente criando a classe panel-subscribe,
 que fará um margin-top de 28px */

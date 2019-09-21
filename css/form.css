@@ -8,21 +8,7 @@
 
     text-transform: uppercase;
 }
-.field label{
-    /* o nome e as caixinhas do input, um embaixo do outro */
-    display: block;
-    font-size: 20px;
-    margin-bottom: 10px;
-    font-weight: bold;
-}
-.field .field-input{
-    display: block;
-    width: 100%;
-    font-size: 20px;
-    /* espaçamento entre o contédo e a borda */
-    padding: 5px;
-}
-/* espaçamento entre um field e outro */
-.field{
-    margin-bottom: 16px;
+/* para centralizar o botão, seu elemento pai é quem precisa receber text-align */
+.button-place{
+    text-align: center;
 }
