@@ -9,7 +9,8 @@
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/header.css">
 	<link rel="stylesheet" href="css/about.css">
-	<link rel="stylesheet" href="css/speakers.css">
+ <link rel="stylesheet" href="css/speakers.css">
+ <link rel="stylesheet" href="css/form.css">
 </head>
 <body>
 	<!-- cabeçalho semântico -->
@@ -177,16 +178,23 @@
 	</div>
  </section>
  <!-- Estrutura do formulário: É um form dentro de uma section que possui um título -->
- <section>
-   <h2>Seus dados</h2>
-
-   <form>
-     <label>Nome</label>
-     <input>
-     <label>E-mail</label>
-     <input>
-     <button>REALIZAR INSCRIÇÃO</button>
-   </form>
+ <section class="panel-form">
+  <div class="container">
+    <h2>Seus dados</h2>
+     <form>
+      <div class="field">
+        <label class="field-label">Nome</label>
+        <input class="field-input">
+      </div>
+      <div class="field">
+        <label class="field-label">E-mail</label>
+        <input class="field-input">
+      </div>
+      <div class="button-place">
+        <button>REALIZAR INSCRIÇÃO</button>
+      </div>
+     </form>
+   </div>
  </section>
 </body>
 </html>
